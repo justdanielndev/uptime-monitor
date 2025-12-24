@@ -2,7 +2,7 @@ import { exec } from "shelljs";
 
 export const commit = (
   message: string,
-  name = "Upptime Bot",
+  name = "Uptime Bot",
   email = "73812536+upptime-bot@users.noreply.github.com"
 ) => {
   exec(`git config --global user.email "${email}"`);

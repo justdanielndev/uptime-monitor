@@ -1,4 +1,4 @@
-name: "Uptime"
+name: "zUptime"
 description: "Uptime monitor and status page"
 author: "Anand Chowdhary <https://github.com/AnandChowdhary>"
 inputs:

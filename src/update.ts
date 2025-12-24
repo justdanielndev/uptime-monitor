@@ -222,7 +222,7 @@ export const update = async (shouldCommit = false) => {
       if (site.type === "globalping") {
         const client = new Globalping({
           auth: getSecret("GLOBALPING_TOKEN"),
-          userAgent: "github.com/upptime/uptime-monitor",
+          userAgent: "github.com/justdanielndev/uptime-monitor",
         });
 
         let u = replaceEnvironmentVariables(site.url);

@@ -184,7 +184,7 @@ const update = async (shouldCommit = false) => {
             if (site.type === "globalping") {
                 const client = new globalping_1.Globalping({
                     auth: (0, secrets_1.getSecret)("GLOBALPING_TOKEN"),
-                    userAgent: "github.com/upptime/uptime-monitor",
+                    userAgent: "github.com/justdanielndev/uptime-monitor",
                 });
                 let u = (0, environment_1.replaceEnvironmentVariables)(site.url);
                 let url;
